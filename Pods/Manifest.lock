@@ -1,0 +1,16 @@
+PODS:
+  - Pilgrim (2.2.2)
+
+DEPENDENCIES:
+  - Pilgrim (~> 2.2.2)
+
+SPEC REPOS:
+  trunk:
+    - Pilgrim
+
+SPEC CHECKSUMS:
+  Pilgrim: 70f5049f764e00e814f0996a59f46f947070ac0d
+
+PODFILE CHECKSUM: 1229d78e93f702f7711aa9142a75ad7456d942f9
+
+COCOAPODS: 1.9.3

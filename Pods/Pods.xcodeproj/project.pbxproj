@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BD6E6D8015F43EA43ABC4DCEDB0A26DB /* Pilgrim */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F6DFC9741BD00C332F990F1E6CDF27C9 /* Build configuration list for PBXAggregateTarget "Pilgrim" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Pilgrim;
+			productName = Pilgrim;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9C82EFB4EA514E667BF9CEEF94EAB54B /* Pods-SkeletonPilgrim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC20BEDA7BCB70C781515804A7BAAE1F /* Pods-SkeletonPilgrim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA675B46A75727625A131B2CF1699090 /* Pods-SkeletonPilgrim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF870508E6080012061E60A9B2464DC4 /* Pods-SkeletonPilgrim-dummy.m */; };
+		DC24B8E16979A420890D8C6811FC962B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67299EBA63D310676B0660E302398A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6E6D8015F43EA43ABC4DCEDB0A26DB;
+			remoteInfo = Pilgrim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD76F3C37321147FC992850A540798D /* Pods-SkeletonPilgrim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkeletonPilgrim.release.xcconfig"; sourceTree = "<group>"; };
+		0DF6CD061C17B1C0E67FCB0B00E245E0 /* Pilgrim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pilgrim.debug.xcconfig; sourceTree = "<group>"; };
+		16E6DDA0BA419CE30AF9BBDD1FE5E010 /* Pods-SkeletonPilgrim-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkeletonPilgrim-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55BA6F7DEB863A1D869669B890EB1C1F /* Pods_SkeletonPilgrim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkeletonPilgrim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A35BCEBB176A2F755D8B51721AD2A5 /* Pods-SkeletonPilgrim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkeletonPilgrim.debug.xcconfig"; sourceTree = "<group>"; };
+		884C7965449EC1F26B057A5F45F4D70F /* Pods-SkeletonPilgrim-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkeletonPilgrim-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C81FC3F29DC05499EDD157A4214ECE2 /* Pods-SkeletonPilgrim-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkeletonPilgrim-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC20BEDA7BCB70C781515804A7BAAE1F /* Pods-SkeletonPilgrim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkeletonPilgrim-umbrella.h"; sourceTree = "<group>"; };
+		C73BE2C6625BE47A3313B18D562F9441 /* Pods-SkeletonPilgrim-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkeletonPilgrim-Info.plist"; sourceTree = "<group>"; };
+		C767CF9CD623D45DC46CBEAFF2B5EE38 /* Pods-SkeletonPilgrim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SkeletonPilgrim.modulemap"; sourceTree = "<group>"; };
+		CBCF6DD521350B094A08BEC526F93750 /* Pilgrim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pilgrim.release.xcconfig; sourceTree = "<group>"; };
+		CFB41EA975F7578D4AE8426DE7306F65 /* Pilgrim.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pilgrim.framework; path = "Pilgrim-2.2.2/Pilgrim.framework"; sourceTree = "<group>"; };
+		EF870508E6080012061E60A9B2464DC4 /* Pods-SkeletonPilgrim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkeletonPilgrim-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3ED6F2DB6C5F5559CB211AD8FB72184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC24B8E16979A420890D8C6811FC962B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689EA0FA1DEC077EF1CBD4019EBCD0A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB41EA975F7578D4AE8426DE7306F65 /* Pilgrim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7991B6DB6E16270B6201FA8FD5970C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BA6F7DEB863A1D869669B890EB1C1F /* Pods_SkeletonPilgrim.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C2763DCC4BE57E428D9356A2693621 /* Pilgrim */ = {
+			isa = PBXGroup;
+			children = (
+				689EA0FA1DEC077EF1CBD4019EBCD0A4 /* Frameworks */,
+				BCF2B6C4608FFA3E483B2E74BAEC5561 /* Support Files */,
+			);
+			path = Pilgrim;
+			sourceTree = "<group>";
+		};
+		A3CF3FA238154C86FA2D473C1076CEFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC55F627DDF6FB78F773884DC52DABB /* Pods-SkeletonPilgrim */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BCF2B6C4608FFA3E483B2E74BAEC5561 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DF6CD061C17B1C0E67FCB0B00E245E0 /* Pilgrim.debug.xcconfig */,
+				CBCF6DD521350B094A08BEC526F93750 /* Pilgrim.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pilgrim";
+			sourceTree = "<group>";
+		};
+		BDC55F627DDF6FB78F773884DC52DABB /* Pods-SkeletonPilgrim */ = {
+			isa = PBXGroup;
+			children = (
+				C767CF9CD623D45DC46CBEAFF2B5EE38 /* Pods-SkeletonPilgrim.modulemap */,
+				884C7965449EC1F26B057A5F45F4D70F /* Pods-SkeletonPilgrim-acknowledgements.markdown */,
+				16E6DDA0BA419CE30AF9BBDD1FE5E010 /* Pods-SkeletonPilgrim-acknowledgements.plist */,
+				EF870508E6080012061E60A9B2464DC4 /* Pods-SkeletonPilgrim-dummy.m */,
+				9C81FC3F29DC05499EDD157A4214ECE2 /* Pods-SkeletonPilgrim-frameworks.sh */,
+				C73BE2C6625BE47A3313B18D562F9441 /* Pods-SkeletonPilgrim-Info.plist */,
+				BC20BEDA7BCB70C781515804A7BAAE1F /* Pods-SkeletonPilgrim-umbrella.h */,
+				73A35BCEBB176A2F755D8B51721AD2A5 /* Pods-SkeletonPilgrim.debug.xcconfig */,
+				0CD76F3C37321147FC992850A540798D /* Pods-SkeletonPilgrim.release.xcconfig */,
+			);
+			name = "Pods-SkeletonPilgrim";
+			path = "Target Support Files/Pods-SkeletonPilgrim";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA489F540A08902C1068BAE6C8CC76C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87C2763DCC4BE57E428D9356A2693621 /* Pilgrim */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CA489F540A08902C1068BAE6C8CC76C2 /* Pods */,
+				7991B6DB6E16270B6201FA8FD5970C64 /* Products */,
+				A3CF3FA238154C86FA2D473C1076CEFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D49C2713F67B7867E92C347BAB817865 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82EFB4EA514E667BF9CEEF94EAB54B /* Pods-SkeletonPilgrim-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7EE92443613F9DF69611BFF956CBA77 /* Pods-SkeletonPilgrim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF116610CCAE31B17FAF5FE19ADC1C56 /* Build configuration list for PBXNativeTarget "Pods-SkeletonPilgrim" */;
+			buildPhases = (
+				D49C2713F67B7867E92C347BAB817865 /* Headers */,
+				52EEE14555A1599124E4D269E929B5E4 /* Sources */,
+				D3ED6F2DB6C5F5559CB211AD8FB72184 /* Frameworks */,
+				9AC7A47808C59326E3402FD6C44F9BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30343ECAB0D38F169DA8457CFD73831F /* PBXTargetDependency */,
+			);
+			name = "Pods-SkeletonPilgrim";
+			productName = "Pods-SkeletonPilgrim";
+			productReference = 55BA6F7DEB863A1D869669B890EB1C1F /* Pods_SkeletonPilgrim.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7991B6DB6E16270B6201FA8FD5970C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6E6D8015F43EA43ABC4DCEDB0A26DB /* Pilgrim */,
+				A7EE92443613F9DF69611BFF956CBA77 /* Pods-SkeletonPilgrim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC7A47808C59326E3402FD6C44F9BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EEE14555A1599124E4D269E929B5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA675B46A75727625A131B2CF1699090 /* Pods-SkeletonPilgrim-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30343ECAB0D38F169DA8457CFD73831F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pilgrim;
+			target = BD6E6D8015F43EA43ABC4DCEDB0A26DB /* Pilgrim */;
+			targetProxy = 67299EBA63D310676B0660E302398A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85905A1F12576608B5720C21D9B11E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A35BCEBB176A2F755D8B51721AD2A5 /* Pods-SkeletonPilgrim.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkeletonPilgrim/Pods-SkeletonPilgrim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkeletonPilgrim/Pods-SkeletonPilgrim.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88C30952BB22F14C87EFB31EE58129CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF6CD061C17B1C0E67FCB0B00E245E0 /* Pilgrim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF97C0122DDD4877C722C745D994108F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCF6DD521350B094A08BEC526F93750 /* Pilgrim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F45E01BE20828EA259A896BB3F838E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD76F3C37321147FC992850A540798D /* Pods-SkeletonPilgrim.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkeletonPilgrim/Pods-SkeletonPilgrim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkeletonPilgrim/Pods-SkeletonPilgrim.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF116610CCAE31B17FAF5FE19ADC1C56 /* Build configuration list for PBXNativeTarget "Pods-SkeletonPilgrim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85905A1F12576608B5720C21D9B11E8A /* Debug */,
+				F5F45E01BE20828EA259A896BB3F838E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DFC9741BD00C332F990F1E6CDF27C9 /* Build configuration list for PBXAggregateTarget "Pilgrim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C30952BB22F14C87EFB31EE58129CF /* Debug */,
+				CF97C0122DDD4877C722C745D994108F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
